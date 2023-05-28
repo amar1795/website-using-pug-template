@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Saira+Condensed:wght@500&display=swap');
+#navigation{
+    display: flex;
+    /* padding: 5px; */
+}
+#navbar {
+    display: flex;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: inline-block;
+}
+#logo img{
+    height: 50px;
+    width: 30px;
+}
+#heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+#heading h4{
+    font-family: 'Kalam', cursive;
+}
+
+#navbar{
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+#navigation li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+#navigation li a{
+    font-family: 'Kalam', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 7px 20px;
+    text-decoration: none;
+   
+    
+}
+
+#navigation li a:hover{
+    background-color: chartreuse;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    color: black;
+    
+}
+
+#introsection{
+    color: white;
+    opacity: 0.9;
+    background: url('/static/dance.jpg' ) center center/cover no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        font-family: 'Saira Condensed', sans-serif;
+        height: 400px;
+        background-color: brown;
+}
+
+#sponsorsection{
+    height: 300px;
+    background-color: yellow;
+
+}
+
+#missionsection 
+{
+    text-align: center;
+    display: flex   ;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+    padding-top: 20px;
+    height: 400px;
+    background-color: bisque;
+}
+#missionsection h3{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+#first {
+    border-radius: 50px;
+   height: 300px;
+   width: 450px;
+   margin: 25px 20px;
+   border: 2px solid black;
+}
+
+#first h4{
+    margin-bottom: 0px;
+    font-size: 2rem;
+    margin-top: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+
+    
+}
+.card {
+    
+    
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap ;
+
+ }
+
+ #second img{
+    height: 200px;
+    width: 150px;
+    padding-left: 15px;
+ }
+
+ #second{
+    display: flex;
+    margin-top: 10px;
+ }
+
+ #second p {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ 
+#sponsorsection h3{
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+
+}
+
+#footer{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    height: 40PX;
+    background-color: rgb(124, 188, 188);
+
+}
+
+#logo_img img{
+    height: 137px;
+    width: 196px;
+
+}
+
+.sponsor{
+    margin-bottom: 20px;
+    display: flex;
+    /* padding: 25px; */
+    margin: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Saira+Condensed:wght@500&display=swap');
+
+.contactus
+        {
+            font-family: 'Saira Condensed', sans-serif;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+
+        }
+        .contactus h3
+        {
+              text-transform: uppercase;
+              font-size: 2rem;
+              margin-top: 7px;
+        }
+        #contactform{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        input,textarea{
+            padding: 10px;
+            margin: 10px;
+            width: 750px;
+            border-radius: 20px;
+        }
+
+        input{
+            width: 750px;
+        }
+       
+        .btn{
+
+            background-color: #5f9ea0;
+            font-size: 1.5rem;
+            width: 150px;
+            height: 45px;
+            border-radius: 15px;
+            color: black;
+            font-family: 'Saira Condensed', sans-serif;
+
+        }
+
+        .btn:hover{
+            cursor: pointer;
+
+            background-color: chartreuse;
+
+        }

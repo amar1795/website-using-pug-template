@@ -1,0 +1,43 @@
+extends base.pug
+block style
+  style 
+   include ../static/style.css
+
+block content
+    
+    section#introsection 
+        div Welcome to the worlds best dance academy
+        div Eat Sleep Dance Repeat
+
+    section#missionsection 
+        h3 our mission 
+        section.card 
+                div#first 
+                    h4 Dance Perfection
+                    div#second
+                        img(src="/static/dance (1).png", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nemo mollitia. Fugit nesciunt, facere aliquam ea facilis ducimus doloribus odit iure ullam eaque quidem.
+                div#first 
+                    h4 Dance the way you like
+                    div#second
+                        img(src="/static/dance (2).png", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nemo mollitia. Fugit nesciunt, facere aliquam ea facilis ducimus doloribus odit iure ullam eaque quidem.
+                div#first 
+                    h4 expert teaching
+                    div#second
+                        img(src="/static/dance (3).png", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nemo mollitia. Fugit nesciunt, facere aliquam ea facilis ducimus doloribus odit iure ullam eaque quidem.
+        
+    section#sponsorsection 
+        h3 our sponsors
+
+        div.sponsor
+            div#logo_img 
+                img(src="/static/apple.png", alt="")
+            div#logo_img 
+                img(src="/static/hp.png", alt="")
+            div#logo_img 
+                img(src="/static/microsoft.png", alt="")
+            div#logo_img 
+                img(src="/static/skype.png", alt="")
+        
